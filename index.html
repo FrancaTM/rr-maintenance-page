@@ -1,1 +1,81 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Retorno Rápido</title>
+    <link rel="icon" type="image/x-icon" href="./logo.svg">
+    <style type="text/css">
+      body {
+        text-align: center;
+        padding: 100px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      body {
+        font: 20px Helvetica, sans-serif;
+        color: #333;
+      }
+      #article {
+        display: block;
+        text-align: left;
+        width: 650px;
+        margin: 0 auto;
+      }
+      a {
+        color: #dc8100;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #333;
+        text-decoration: none;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+      .grid-item-1 {
+        font-size: 30px;
+        text-align: right;
+        padding-right: 10px;
+      }
+      .grid-item-2 {
+        font-size: 30px;
+        text-align: left;
+      }
+      .customFontTitle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+      }
+      .customFontDescription {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="article">
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <img src="./logo.svg" height="100" width="100" alt="Minha Figura">
+      </div>
+      <div class="grid-item-2">
+        <h1 class="customFontTitle" style="font-style: italic">Retorno Rápido</h1>
+      </div>
+    </div>      
+      <h1 class="customFontTitle" style="font-style: Medium">Ops, estamos em manutenção...</h1>
+      <div class="customFontDescription">
+        <p style="text-align: justify">
+          Pedimos desculpas pelo inconveniente, mas estamos temporariamente em manutenção.
+          Caso necessário, você pode entrar em contato conosco através do
+          <a href="https://wa.me/554132250697" target="_blank">WhatsApp</a>.
+          Logo estaremos disponíveis!
+        </p>
+        <p>Agradeçemos pela compreensão.</p>
+        <p class="customFontTitle" style="font-style: italic">- Equipe RR</p>
+      </div>
+    </div>
+  </body>
+</html>
